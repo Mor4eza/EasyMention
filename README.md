@@ -22,7 +22,7 @@ pod 'EasyMention'
 
 ## Author
 
-morteza.ghrdi@gmail.com, Morteza.ghrdi@gmail.com
+Morteza Gharedaghi:  Morteza.ghrdi@gmail.com
 
 ## License
 
