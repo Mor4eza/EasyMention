@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyMention_Example' do
+  pod 'EasyMention', :path => '../'
+
+  target 'EasyMention_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
