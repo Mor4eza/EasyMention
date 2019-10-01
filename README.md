@@ -1,5 +1,5 @@
 # EasyMention
-[![CI Status](https://img.shields.io/travis/morteza.ghrdi@gmail.com/EasyMention.svg?style=flat)](https://travis-ci.org/morteza.ghrdi@gmail.com/EasyMention)
+[![CI Status](https://img.shields.io/travis/Mor4eza/EasyMention.svg?style=flat)](https://travis-ci.org/Mor4eza/EasyMention)
 [![Version](https://img.shields.io/cocoapods/v/EasyMention.svg?style=flat)](https://cocoapods.org/pods/EasyMention)
 [![License](https://img.shields.io/cocoapods/l/EasyMention.svg?style=flat)](https://cocoapods.org/pods/EasyMention)
 [![Platform](https://img.shields.io/cocoapods/p/EasyMention.svg?style=flat)](https://cocoapods.org/pods/EasyMention)
