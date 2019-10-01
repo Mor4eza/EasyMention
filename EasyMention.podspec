@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyMention'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A Swift Library that made easy to implement mentions in a TextView'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A Swift Library that made easy to implement mentions in a TextView'
+  s.description      = 'A Swift Library that made easy to implement mentions in a TextView , support user image,user name, and name with auto suggestion'
 
 
   s.homepage         = 'https://github.com/Mor4eza/EasyMention'

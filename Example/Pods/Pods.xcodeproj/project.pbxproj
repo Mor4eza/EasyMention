@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3ACF19031BE8176EB84D7D2162F78BA8 /* EasyMention-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F83C74447246BAD70AD68E778F83FC /* EasyMention-dummy.m */; };
 		52F2F237F1BFD0B26A342BD21BEE2222 /* Pods-EasyMention_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABBD92F0B1EEA6C360BDD25704739D /* Pods-EasyMention_Example-dummy.m */; };
 		582B3A0EE8D6DD4EE590DB82193786CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5FBCFC9611745433891B9FA42B2D5BEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		68C16C8334024AD08480C28D311F8A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		871223A63A8BB0A9E383ABF7CA6D46F2 /* Pods-EasyMention_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE61D55BB473693C96D03274F603E1A /* Pods-EasyMention_Tests-dummy.m */; };
+		8D0D8FAF234210C100E8B770 /* UIImage+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D8FAE234210C100E8B770 /* UIImage+LoadImage.swift */; };
+		8DA3F88A2343612500DF1807 /* MentionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3F8892343612500DF1807 /* MentionsCell.swift */; };
+		8DBD25002340863E001564BF /* MentionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD24FF2340863E001564BF /* MentionItem.swift */; };
+		AC45F3CB14068A88566799799160AC87 /* EasyMention-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2181C7A682484405D41E43901FF8D0 /* EasyMention-dummy.m */; };
+		ACA1D2D8D1D0A1A6325F28C39E75F8CB /* EasyMention.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3751E6A084757882C3D9E0276C03E4B /* EasyMention.swift */; };
 		B7469567841AA64497F72C1CF675A54C /* Pods-EasyMention_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43B3C031A489153889BAF2B2856FA4E9 /* Pods-EasyMention_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBCF5CDB252B11BA452ABF4FD450AC6D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6324346C7C48F1606A11E1B44D5465 /* ReplaceMe.swift */; };
 		E3FDE82317CFE6D2F75F912A3385967E /* Pods-EasyMention_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D542CABEE6F252508F753B468196C261 /* Pods-EasyMention_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F04E72D1E8C17FC8141B9BA56CEA342C /* EasyMention-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0541B2815C03D4038685EFE0D276C54A /* EasyMention-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F04E72D1E8C17FC8141B9BA56CEA342C /* EasyMention-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB06569754E4C7E8E5998457F5FA1D27 /* EasyMention-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +41,40 @@
 
 /* Begin PBXFileReference section */
 		01ABBD92F0B1EEA6C360BDD25704739D /* Pods-EasyMention_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyMention_Example-dummy.m"; sourceTree = "<group>"; };
-		0541B2815C03D4038685EFE0D276C54A /* EasyMention-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMention-umbrella.h"; sourceTree = "<group>"; };
 		0E41A72B63CF5FBCA7EE600FDBBE5662 /* Pods-EasyMention_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyMention_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1892B9DD59BEA940FFA997D2D71486BE /* Pods-EasyMention_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMention_Example.release.xcconfig"; sourceTree = "<group>"; };
 		30FE09268BEA9EA01634F3E129914772 /* Pods-EasyMention_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMention_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AE61D55BB473693C96D03274F603E1A /* Pods-EasyMention_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyMention_Tests-dummy.m"; sourceTree = "<group>"; };
 		43B3C031A489153889BAF2B2856FA4E9 /* Pods-EasyMention_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyMention_Example-umbrella.h"; sourceTree = "<group>"; };
-		49F83C74447246BAD70AD68E778F83FC /* EasyMention-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyMention-dummy.m"; sourceTree = "<group>"; };
 		50014794393220B089FBE1668D9D4EE3 /* Pods-EasyMention_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyMention_Tests-Info.plist"; sourceTree = "<group>"; };
 		5AF318219012901186D03EE24D86F522 /* Pods-EasyMention_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyMention_Example.modulemap"; sourceTree = "<group>"; };
-		635316A665424FA5EEEEB575F526F8B8 /* EasyMention-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMention-prefix.pch"; sourceTree = "<group>"; };
+		5F2181C7A682484405D41E43901FF8D0 /* EasyMention-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyMention-dummy.m"; sourceTree = "<group>"; };
 		68F8BAED386FCB7036F57D0572C041CB /* Pods_EasyMention_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyMention_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F01A3B604C146782E32CC1471D1442E /* EasyMention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyMention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CBA786A60A5D55309650B6B253B6E29 /* EasyMention.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyMention.modulemap; sourceTree = "<group>"; };
-		8BB4492D8058BA6BBEFABF3E85E5731F /* EasyMention-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyMention-Info.plist"; sourceTree = "<group>"; };
-		8DE67BE2EDA985E74E36C48AE654F556 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		706A795D6BD945C1143A10DA43C3E70F /* EasyMention.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EasyMention.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A95397E9868E4AF4966E150374BB698 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D0D8FAE234210C100E8B770 /* UIImage+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+LoadImage.swift"; path = "EasyMention/Classes/UIImage+LoadImage.swift"; sourceTree = "<group>"; };
+		8DA3F8892343612500DF1807 /* MentionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MentionsCell.swift; path = EasyMention/Classes/MentionsCell.swift; sourceTree = "<group>"; };
+		8DBD24FF2340863E001564BF /* MentionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MentionItem.swift; path = EasyMention/Classes/MentionItem.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E6324346C7C48F1606A11E1B44D5465 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EasyMention/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		A12962D25B53F599589116DA3CA3D631 /* Pods-EasyMention_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyMention_Example-Info.plist"; sourceTree = "<group>"; };
-		A689810A3992F2F6C6D4C7871B60EAB9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B3751E6A084757882C3D9E0276C03E4B /* EasyMention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyMention.swift; path = EasyMention/Classes/EasyMention.swift; sourceTree = "<group>"; };
 		B770409EC38F190EA8AD5235D5EB684D /* Pods-EasyMention_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyMention_Tests.modulemap"; sourceTree = "<group>"; };
 		BE3734FABB98001523B30FE33716F76D /* Pods-EasyMention_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyMention_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C1E099D60696AAE869E0E8DA0E8C7098 /* Pods-EasyMention_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyMention_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6A5C22B20392A1A4AD0C34D429D0619 /* EasyMention.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EasyMention.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C67E2512D10CF7C84798EFFBE8BD5730 /* EasyMention-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMention-prefix.pch"; sourceTree = "<group>"; };
+		CB06569754E4C7E8E5998457F5FA1D27 /* EasyMention-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMention-umbrella.h"; sourceTree = "<group>"; };
+		D29AF239C9758F4424CC26C4905D3051 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D32A36E57DC12CEF0E23EB7099B717E2 /* Pods-EasyMention_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMention_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D542CABEE6F252508F753B468196C261 /* Pods-EasyMention_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyMention_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D57FA9409D752C0C06964303DDED2434 /* Pods-EasyMention_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyMention_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7E9A07689EA06C09797031AE20D4D61 /* Pods-EasyMention_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyMention_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DCD792A4AA01FE9FB4CE62612766699B /* EasyMention.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyMention.xcconfig; sourceTree = "<group>"; };
+		E18BA4073E44EC042C975C03F2438021 /* EasyMention-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyMention-Info.plist"; sourceTree = "<group>"; };
 		E3B28A2C5ED7D1717E12C844DAD9BDA8 /* Pods_EasyMention_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyMention_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEED069A512BBC8E268A596E5BC08E2 /* EasyMention.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyMention.xcconfig; sourceTree = "<group>"; };
 		F89F85F24947FEBE93434E7B51298DCF /* Pods-EasyMention_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyMention_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FF29AEDE32DE70CFA188E8E3ADF8503F /* EasyMention.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyMention.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,20 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B89A4C730738100A3E25E2706D859D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CBA786A60A5D55309650B6B253B6E29 /* EasyMention.modulemap */,
-				DCD792A4AA01FE9FB4CE62612766699B /* EasyMention.xcconfig */,
-				49F83C74447246BAD70AD68E778F83FC /* EasyMention-dummy.m */,
-				8BB4492D8058BA6BBEFABF3E85E5731F /* EasyMention-Info.plist */,
-				635316A665424FA5EEEEB575F526F8B8 /* EasyMention-prefix.pch */,
-				0541B2815C03D4038685EFE0D276C54A /* EasyMention-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EasyMention";
-			sourceTree = "<group>";
-		};
 		26FA402D86F9AA380754842DA7C83836 /* Pods-EasyMention_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +132,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		390ABE37024C6796C8D663B157351212 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				706A795D6BD945C1143A10DA43C3E70F /* EasyMention.podspec */,
+				8A95397E9868E4AF4966E150374BB698 /* LICENSE */,
+				D29AF239C9758F4424CC26C4905D3051 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5FCA0B06C464782901EE67A8FD6C9972 /* Pods-EasyMention_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,10 +158,24 @@
 			path = "Target Support Files/Pods-EasyMention_Tests";
 			sourceTree = "<group>";
 		};
+		9404148F82E200F9A3F5169B99998449 /* EasyMention */ = {
+			isa = PBXGroup;
+			children = (
+				8DA3F8892343612500DF1807 /* MentionsCell.swift */,
+				B3751E6A084757882C3D9E0276C03E4B /* EasyMention.swift */,
+				8DBD24FF2340863E001564BF /* MentionItem.swift */,
+				8D0D8FAE234210C100E8B770 /* UIImage+LoadImage.swift */,
+				390ABE37024C6796C8D663B157351212 /* Pod */,
+				DE68D7930DE379176F4FAC8DB1FAAFA4 /* Support Files */,
+			);
+			name = EasyMention;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		AD5DE05DE08008EC16C9AC5A7C4303C2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C995B5872506B7C40DEC0CE2188FAF53 /* EasyMention */,
+				9404148F82E200F9A3F5169B99998449 /* EasyMention */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -170,17 +186,6 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		C995B5872506B7C40DEC0CE2188FAF53 /* EasyMention */ = {
-			isa = PBXGroup;
-			children = (
-				9E6324346C7C48F1606A11E1B44D5465 /* ReplaceMe.swift */,
-				E3BCA7483F1A453A5EAA9EA020962CA3 /* Pod */,
-				16B89A4C730738100A3E25E2706D859D /* Support Files */,
-			);
-			name = EasyMention;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -211,14 +216,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3BCA7483F1A453A5EAA9EA020962CA3 /* Pod */ = {
+		DE68D7930DE379176F4FAC8DB1FAAFA4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C6A5C22B20392A1A4AD0C34D429D0619 /* EasyMention.podspec */,
-				A689810A3992F2F6C6D4C7871B60EAB9 /* LICENSE */,
-				8DE67BE2EDA985E74E36C48AE654F556 /* README.md */,
+				FF29AEDE32DE70CFA188E8E3ADF8503F /* EasyMention.modulemap */,
+				EEEED069A512BBC8E268A596E5BC08E2 /* EasyMention.xcconfig */,
+				5F2181C7A682484405D41E43901FF8D0 /* EasyMention-dummy.m */,
+				E18BA4073E44EC042C975C03F2438021 /* EasyMention-Info.plist */,
+				C67E2512D10CF7C84798EFFBE8BD5730 /* EasyMention-prefix.pch */,
+				CB06569754E4C7E8E5998457F5FA1D27 /* EasyMention-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyMention";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +303,7 @@
 			buildConfigurationList = 718B239B07516D42F1AB84DA6271E3CC /* Build configuration list for PBXNativeTarget "EasyMention" */;
 			buildPhases = (
 				F8C643280C7B4EA95E67829DFA5F256E /* Headers */,
-				1E016F68C7E6695031DCCA473A887972 /* Sources */,
+				D7086F2C8CCD2FEC5C871DA92513BD4B /* Sources */,
 				CF2D60E53670172078C7532273DDF2FF /* Frameworks */,
 				9CFCCE6F52D99DEE788793A2F224962E /* Resources */,
 			);
@@ -360,15 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E016F68C7E6695031DCCA473A887972 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3ACF19031BE8176EB84D7D2162F78BA8 /* EasyMention-dummy.m in Sources */,
-				CBCF5CDB252B11BA452ABF4FD450AC6D /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		208484A1E293AF2EE506B3BD28E61501 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +382,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				871223A63A8BB0A9E383ABF7CA6D46F2 /* Pods-EasyMention_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7086F2C8CCD2FEC5C871DA92513BD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC45F3CB14068A88566799799160AC87 /* EasyMention-dummy.m in Sources */,
+				8D0D8FAF234210C100E8B770 /* UIImage+LoadImage.swift in Sources */,
+				8DA3F88A2343612500DF1807 /* MentionsCell.swift in Sources */,
+				8DBD25002340863E001564BF /* MentionItem.swift in Sources */,
+				ACA1D2D8D1D0A1A6325F28C39E75F8CB /* EasyMention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,132 +415,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5AFF3C1EEC9AB67309DCF881BC135100 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D57FA9409D752C0C06964303DDED2434 /* Pods-EasyMention_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9743C96E0AA1BA3D287C16E145727864 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCD792A4AA01FE9FB4CE62612766699B /* EasyMention.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EasyMention/EasyMention-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EasyMention/EasyMention-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EasyMention/EasyMention.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morteza.EasyMention;
-				PRODUCT_MODULE_NAME = EasyMention;
-				PRODUCT_NAME = EasyMention;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -592,10 +479,45 @@
 			};
 			name = Debug;
 		};
-		BB0586D0845A37791BB06EEAE57AEA23 /* Release */ = {
+		4039CB8EFC7E6FE487564B1B0817DA91 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCD792A4AA01FE9FB4CE62612766699B /* EasyMention.xcconfig */;
+			baseConfigurationReference = 30FE09268BEA9EA01634F3E129914772 /* Pods-EasyMention_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70781889A08781A2A46EC0CA92C1BAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEED069A512BBC8E268A596E5BC08E2 /* EasyMention.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -611,7 +533,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/EasyMention/EasyMention.modulemap";
-				PRODUCT_BUNDLE_IDENTIFIER = com.morteza.EasyMention;
 				PRODUCT_MODULE_NAME = EasyMention;
 				PRODUCT_NAME = EasyMention;
 				SDKROOT = iphoneos;
@@ -625,11 +546,12 @@
 			};
 			name = Release;
 		};
-		C64E5CFAA6770093EB559AC4C5C5E719 /* Release */ = {
+		709D299A56D573F9BC5B3D8C1282A492 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1892B9DD59BEA940FFA997D2D71486BE /* Pods-EasyMention_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -641,7 +563,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EasyMention_Example/Pods-EasyMention_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EasyMention_Example/Pods-EasyMention_Example.modulemap";
@@ -659,11 +581,44 @@
 			};
 			name = Release;
 		};
-		DF00D14F15AF7C46655A2F31A35122C5 /* Debug */ = {
+		755EC41FE9445D59D73582B5DA4C62C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30FE09268BEA9EA01634F3E129914772 /* Pods-EasyMention_Tests.debug.xcconfig */;
+			baseConfigurationReference = EEEED069A512BBC8E268A596E5BC08E2 /* EasyMention.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyMention/EasyMention-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyMention/EasyMention-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyMention/EasyMention.modulemap";
+				PRODUCT_MODULE_NAME = EasyMention;
+				PRODUCT_NAME = EasyMention;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B478CC1AF6A6CC8131DAD7946131E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57FA9409D752C0C06964303DDED2434 /* Pods-EasyMention_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -675,7 +630,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EasyMention_Tests/Pods-EasyMention_Tests.modulemap";
@@ -687,16 +642,77 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		FC04A70606F358BD52568A2BAE0244C6 /* Debug */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CBA428EBECB4C023E5F080B52B8C2516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D32A36E57DC12CEF0E23EB7099B717E2 /* Pods-EasyMention_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,7 +724,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-EasyMention_Example/Pods-EasyMention_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-EasyMention_Example/Pods-EasyMention_Example.modulemap";
@@ -731,8 +747,8 @@
 		266934901DCB96E74CFA048E328FAFB1 /* Build configuration list for PBXNativeTarget "Pods-EasyMention_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF00D14F15AF7C46655A2F31A35122C5 /* Debug */,
-				5AFF3C1EEC9AB67309DCF881BC135100 /* Release */,
+				4039CB8EFC7E6FE487564B1B0817DA91 /* Debug */,
+				7B478CC1AF6A6CC8131DAD7946131E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -740,8 +756,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -749,8 +765,8 @@
 		718B239B07516D42F1AB84DA6271E3CC /* Build configuration list for PBXNativeTarget "EasyMention" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9743C96E0AA1BA3D287C16E145727864 /* Debug */,
-				BB0586D0845A37791BB06EEAE57AEA23 /* Release */,
+				755EC41FE9445D59D73582B5DA4C62C3 /* Debug */,
+				70781889A08781A2A46EC0CA92C1BAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,8 +774,8 @@
 		C3A9D6B249BD03637D4A342900085C16 /* Build configuration list for PBXNativeTarget "Pods-EasyMention_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC04A70606F358BD52568A2BAE0244C6 /* Debug */,
-				C64E5CFAA6770093EB559AC4C5C5E719 /* Release */,
+				CBA428EBECB4C023E5F080B52B8C2516 /* Debug */,
+				709D299A56D573F9BC5B3D8C1282A492 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
